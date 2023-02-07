@@ -38,7 +38,6 @@ $(function () {
 
   // ============================数据请求业务==============================
   $.getJSON(
-    <!-- 'https://raw.githubusercontent.com/heifan88/heifan88.github.io/main/data/db.json', -->
     'https://website-1257621263.cos.ap-shanghai.myqcloud.com/db/db.json',
     res => {
       // 页面渲染
