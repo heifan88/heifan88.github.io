@@ -4,6 +4,9 @@ body {
   color: #4d4d4d;
   -webkit-overflow-scrolling: touch;
   font-family: PingFangSC-Regular, Helvetica Neue, Microsoft Yahei, 微软雅黑;
+  background-image: url(https://website-1257621263.cos.ap-shanghai.myqcloud.com/diqiu.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .container,
@@ -30,7 +33,8 @@ body {
     text-align: center;
     color: #fff;
     display: block;
-    text-shadow: #253e45 -1px 1px 0, #253e45 -2px 2px 0, #3a85ff -3px 3px 0, #3a85ff -4px 4px 0;
+    text-shadow: #253e45 -1px 1px 0, #253e45 -2px 2px 0,
+ #3a85ff -3px 3px 0, #3a85ff -4px 4px 0;
   }
   .container .left-bar .item {
     height: 48px;
